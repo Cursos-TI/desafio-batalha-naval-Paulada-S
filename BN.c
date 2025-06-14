@@ -1,5 +1,21 @@
 #include <stdio.h>
 int main(){
+    int a,b,c,d,e;
+    char linha[10]={'A','B','C','D','E','F','G','H','I','J'};
+    int n[10][10]={{}};
+    printf("  ");
+    for ( int l = 0; l < 10; l++){
+            printf("%c ", linha[l]);
+            }
+            printf("\n");
+    for (a = 0; a < 10; a++){
+        printf("%d ", a);
+        for ( b = 0; b < 10; b++){
+            printf("%d ", n[a][b]);
+        };
+        printf("\n");
+    };
+    /*
     int a,b;
 int m[3][3]={
     {1, 2, 3},
@@ -9,6 +25,7 @@ int m[3][3]={
 scanf("%d", &a);
 scanf("%d", &b);
 printf("O valor é: %d\n", m[a][b]);
+*/
     /*
 int n[10]={{1},{2},{3},{4}};
 printf(" 1  2  3 4 5 6 7 8 9 1011 12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,

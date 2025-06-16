@@ -3,6 +3,9 @@ int main(){
     int a,b,c,d,e;
     char linha[10]={'A','B','C','D','E','F','G','H','I','J'};
     int n[10][10]={{}};
+    printf("     ");
+    printf("Batalha Naval\n");
+    printf("\n");
     printf("  ");
     for ( int l = 0; l < 10; l++){
             printf("%c ", linha[l]);
